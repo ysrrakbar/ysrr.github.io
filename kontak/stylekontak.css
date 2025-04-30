@@ -22,6 +22,15 @@ h1{
   font-family: 'Cinzel',serif;
   font-size: x-large;
 }
+.wa{
+  display: grid;
+  justify-content: center;
+}
+
+img{
+  width: 100px;
+  height: auto;
+}
 
 .header h1 {
   margin: 0;

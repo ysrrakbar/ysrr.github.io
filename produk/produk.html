@@ -22,41 +22,45 @@
     <div class="produk">
         <h3>Produk Unggulan</h3>
         <div class="produk-list">
-            <div class="produk-item">
-                <img src="KopiGayo.jpg.jpg" alt="Produk 1">
+            <div class="produk-item" onclick="showForm(this)">
+                <img src="../gambar/KopiGayo.jpg.jpg" alt="Produk 1">
                 <h4>Kopi Arabika Gayo</h4>
                 <p>Rp.150.000,00/Pcs</p>
             </div>
-            <div class="produk-item">
-                <img src="robusta.jpg.jpg" alt="Produk 2">
+            <div class="produk-item" onclick="showForm(this)">
+                <img src="../gambar/robusta.jpg.jpg" alt="Produk 2">
                 <h4>Kopi Robusta Gayo</h4>
                 <p>Rp.200.000,00/Pcs</p>
             </div>
-            <div class="produk-item">
-                <img src="liberika.jpg.jpg" alt="Produk 3">
+            <div class="produk-item" onclick="showForm(this)">
+                <img src="../gambar/liberika.jpg.jpg" alt="Produk 3">
                 <h4>Kopi Liberika</h4>
                 <p>Rp.250.000,00/Pcs</p>
             </div>
-            <div class="produk-item">
-                <img src="balikopi.jpg.jpg" alt="Produk 4">
+            <div class="produk-item" onclick="showForm(this)">
+                <img src="../gambar/balikopi.jpg.jpg" alt="Produk 4">
                 <h4>Kopi Bali</h4>
                 <p>Rp.70.000,00/Pcs</p>
             </div>
-            <div class="produk-item">
-                <img src="rbs.jpg.jpg" alt="Produk 5">
+            <div class="produk-item" onclick="showForm(this)">
+                <img src="../gambar/rbs.jpg.jpg" alt="Produk 5">
                 <h4>Nusakambangan Robusta Coffee</h4>
                 <p>Rp.350.000,00/Pcs</p>
             </div>
-            <div class="produk-item">
-                <img src="gemplong.jpg.jpg" alt="Produk 6">
+            <div class="produk-item" onclick="showForm(this)">
+                <img src="../gambar/gemplong.jpg.jpg" alt="Produk 6">
                 <h4>Sempor Delicious Coffee</h4>
                 <p>Rp.400.000,00/Pcs</p>
             </div>
         </div>
+        <div class="popup-overlay" id="overlay" onclick="hideForm()"></div>
+    <div class="form_input">
+        <input type="text" placeholder="Nama Pemesan">
+        <input type="text" placeholder="No Wa">
     </div>
-
     <footer>
         <p>@2025 Kopi Yasir. Semua hak dilindungi.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
